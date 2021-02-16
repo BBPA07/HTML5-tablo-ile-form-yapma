@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>Kayıt Formu</h1>
+    <form name="kayit" action="kayit.php" id="kayit" autocomplete="on">
+        <table>
+            <tr><td>Ad Soyad:</td><td><input type="text" name="adsoyad" id="adsoyad" required
+            placeholder="Adınızı ve soyadınızı giriniz" autofocus></td></tr>
+            <tr><td>Email:</td><td><input type="email" name="email" id="email" required
+            placeholder="Email Adresinizi giriniz"></td></tr>
+            <tr><td>Yorum:</td><td><textarea name="yorum" id="yorum" cols="30" rows="5" required></textarea></td></tr>
+            <tr><td></td><td><input type="submit" value="Gönder">
+            <input type="reset" value="Temizle"></td></tr>
+        </table>
+    </form>
+</body>
+</html>
